@@ -1,0 +1,77 @@
+abre git bash
+localizar la carpeta
+tipo rm -rf .git
+luego inicializa el git como git init
+
+
+// Para ver el estado de mi sitio web
+
+git status
+
+// Para guardar una nueva version con git despues de haber creado el index y esta listo para ser guardado en versiones
+git commit -m "Texto descriptivo de los cambios que se hicieron"
+
+
+git add . // Agrega todos los archivos de los cambios que se han echo
+
+sacando del staged index 
+git rm --cached index.html
+
+
+
+
+Nombres de archivos van en .gitignore
+
+///****** Comandos 
+
+************ git log
+nos muestra un historial de todos los cambios que hisimos o commits
+
+************ git --stat
+nos muestra stadisticas de los movimientos que fueron borradas o tuvieron cambios
+
+************ git log --stat
+
+
+************ git log --online
+nos muesta todos los commits que hemos echo
+
+************* git log --graph
+nos muestar una grafica de todos los commits
+
+
+
+************* git log --oneline --graph --all
+nos desplaza todas las graficas
+
+
+************* Comprobar diferencias
+git diff
+
+nos ayuda a diferenciar lo que tenemos en nuestro codigo html
+
+
+************* Comparando con un commit
+--------- 
+git diff y le pasamos un commit 564654654 checkout
+
+****** git branch nos muestra nuestras ramas o verciones de nuestro sitio
+
+git checkout master vamos a poder cambiar a la rama de master osea que nos
+cambiara nuestro sitio a una vercion anterior
+
+
+
+comando git branch nos permite ver las ramas que tenemos actualmente
+**** git branch 
+y muestra todas las rams
+
+comando para crear una nueva rama
+
+**** git checkout -b y el nombre de la rama que vamos a crear y no permite espacios en blanco
+y cuando ejecutemos el comando de git branch despues de haber creado nuestra nueva rama nos la mostrara con el nombre que le dimos
+
+
+
+
+
